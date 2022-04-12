@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    height: 5rem;
+    height: 10vh;
     background-color: darkslategray;
     width: 100%;
     display: flex;
@@ -37,7 +37,7 @@ header {
 main {
     background-color: dimgray;
     padding-bottom: 30px;
-    height: 95vh;
+    height: 90vh;
 }
 
 .container {
