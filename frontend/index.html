@@ -11,6 +11,11 @@
     <div id="app">
         <header>
             <img class="head-logo" src="https://cdn.iconscout.com/icon/free/png-256/spotify-3771084-3147762.png" alt="logo Spotify">
+            <label id="search" for="search">Generi:</label>
+            <select name="genre" id="genre">
+                <option value="">All</option>
+                <option v-for="element in filterArrOptions" :value="element">{{ element }}</option>
+            </select>
         </header>
         <main>
             <div class="container">
