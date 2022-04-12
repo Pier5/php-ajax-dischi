@@ -2,7 +2,8 @@ new Vue({
     el: '#app',
     data: {
         arrAlbum : [],
-        arrOptions : []
+        arrOptions : [],
+        strSelect : ''
     },
     created() {
         axios.get('http://localhost/php-ajax-dischi/api.php')
@@ -16,6 +17,12 @@ new Vue({
             }
           })
           return this.arrOptions
-        }
+        },
+        selectOption () {
+            return this.arrAlbum.filter((el) => {
+              return el.genre
+                .includes(this.strSelect)
+            })
+          }
     }
 })

@@ -37,6 +37,7 @@ header {
 main {
     background-color: dimgray;
     padding-bottom: 30px;
+    height: 95vh;
 }
 
 .container {
