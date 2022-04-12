@@ -1,5 +1,5 @@
 <?php
-    include __DIR__ . '/parts/database.php';
+    include_once './parts/database.php';
 ?>
 
 <!DOCTYPE html>
