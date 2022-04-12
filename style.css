@@ -1,0 +1,16 @@
+header {
+    height: 5rem;
+    background-color: darkslategray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.head-logo {
+    width: 3%;
+    margin-left: 5px;
+}
+
+main {
+    background-color: dimgray;
+}
