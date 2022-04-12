@@ -23,6 +23,6 @@ new Vue({
               return el.genre
                 .includes(this.strSelect)
             })
-          }
+        }
     }
 })
